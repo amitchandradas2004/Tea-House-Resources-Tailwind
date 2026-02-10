@@ -28,7 +28,39 @@
     </style>
   </head>
   <body>
-    <h2 class="text-red-500 bg-green-500">Tea House</h2>
-    <span><i class="fa-solid fa-user"></i></span>
+    <!-- Banner section -->
+    <section class="grid grid-cols-2 container mx-auto">
+      <div class="banner-left space-y-[20px]">
+        <h2 class="text-[50px] font-bold">
+          It's good<br />
+          tea time at The Tea House
+        </h2>
+        <p class="text-[#777777]">
+          Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your
+          Taste Buds.
+        </p>
+        <button
+          class="py-3 px-5 rounded-md text-white font-semibold bg-linear-to-bl from-[#FF0000] to-[#FF8938]"
+        >
+          Explore More
+          <span class="-rotate-45 inline-block"
+            ><i class="fa-solid fa-arrow-right-long"></i
+          ></span>
+        </button>
+      </div>
+      <div class="banner-right flex justify-end items-end relative">
+        <img src="./images/banner.png" />
+        <!-- Rating div -->
+        <div
+          class="bg-white rounded-2xl shadow-2xl flex justify-center items-center gap-2 w-[220px] absolute bottom-[15px] left-[90px] py-[25px] px-[15px]"
+        >
+          <img src="./images/rating.png" />
+          <div>
+            <h3 class="font-bold text-4xl">5.00</h3>
+            <p class="text-[#777777]">Trust Rating</p>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
