@@ -27,9 +27,11 @@
       }
     </style>
   </head>
-  <body>
+  <body
+    class="px-5 sm:px-4 md:px-3 container mx-auto bg-linear-to-r/longer from-green-100 to-blue-200"
+  >
     <!-- Banner section -->
-    <section class="grid grid-cols-1 md:grid-cols-2 container mx-auto">
+    <section class="grid grid-cols-1 md:grid-cols-2">
       <div class="banner-left space-y-[25px]">
         <h2 class="text-[50px] font-bold">
           It's good<br />
@@ -40,7 +42,7 @@
           Taste Buds.
         </p>
         <button
-          class="py-3 px-5 rounded-md text-white font-semibold bg-linear-to-bl from-[#FF0000] to-[#FF8938] hover: transition delay-1 duration-100 hover:ease-in-out hover:-translate-y-1 hover:scale-105"
+          class="py-3 px-5 rounded-md text-white font-semibold bg-linear-to-bl from-[#FF0000] to-[#FF8938] hover:transition delay-1 duration-100 hover:ease-in-out hover:-translate-y-1 hover:scale-105"
         >
           Explore More
           <span class="-rotate-45 inline-block"
@@ -64,7 +66,7 @@
     </section>
 
     <!-- Featured section -->
-    <section class="container mx-auto m-[100px]">
+    <section class="m-[100px] container mx-auto">
       <div class="mx-auto mb-[50px]">
         <h2 class="font-bold text-[45px] text-center">Our Featured Products</h2>
         <p class="font-medium text-[#777777] text-center mx-20">
@@ -109,9 +111,7 @@
     </section>
 
     <!-- Great tea section -->
-    <section
-      class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-7 mb-[100px]"
-    >
+    <section class="grid grid-cols-1 md:grid-cols-2 gap-7 mb-[100px]">
       <div class="left gap-5 grid grid-cols-2 grid-rows-3">
         <div
           class="bg-linear-to-r from-[#ff0000] to-[#ff8938] opacity-10 rounded-2xl"
@@ -157,7 +157,7 @@
 
     <!-- Meet out super client -->
     <section
-      class="container mx-auto grid md:grid-cols-2 sm:grid-cols-1 gap-7 lg:gap-[100px] mb-[100px] bg-linear-to-r from-[#f97f2d] to-[#FF0000] p-[50px] rounded-md"
+      class="grid md:grid-cols-2 sm:grid-cols-1 gap-7 lg:gap-[100px] mb-[100px] bg-linear-to-r from-[#f97f2d] to-[#FF0000] p-[50px] rounded-md"
     >
       <div class="flex items-center">
         <div class="space-y-7 w-[80%]">
@@ -230,7 +230,7 @@
     </section>
 
     <!-- News & Events section -->
-    <section class="container mx-auto mb-[50px]">
+    <section class="mb-[50px]">
       <div class="text-center w-[80%] mx-auto space-y-5 p-5">
         <h2 class="font-bold text-5xl text-[#1C1C1C]">News & Events</h2>
         <p class="text-[#777777]">
@@ -240,9 +240,9 @@
         </p>
       </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-5 md:gap-3">
         <div
-          class="p-3 space-y-2 border border-[#D2D2D2] rounded-md w-[90%] mx-auto"
+          class="p-3 space-y-2 border border-[#D2D2D2] rounded-md w-[90%] mx-auto backdrop-blur-[300]"
         >
           <img src="./images/news-1.png" />
           <p class="text-[#777777]">Feb 05, 2027</p>
@@ -253,7 +253,7 @@
           <p class="font-extrabold">Learn More</p>
         </div>
         <div
-          class="p-3 space-y-2 border border-[#D2D2D2] rounded-md w-[90%] mx-auto"
+          class="p-3 space-y-2 border border-[#D2D2D2] rounded-md w-[90%] mx-auto backdrop-blur-[300]"
         >
           <img src="./images/news-2.png" />
           <p class="text-[#777777]">Feb 05, 2027</p>
@@ -264,7 +264,7 @@
           <p class="font-extrabold">Learn More</p>
         </div>
         <div
-          class="p-3 space-y-2 border border-[#D2D2D2] rounded-md w-[90%] mx-auto"
+          class="p-3 space-y-2 border border-[#D2D2D2] rounded-md w-[90%] mx-auto backdrop-blur-[300]"
         >
           <img src="./images/news-3.png" />
           <p class="text-[#777777]">Feb 05, 2027</p>
@@ -279,8 +279,8 @@
 
     <!-- Footer section -->
 
-    <footer class="bg-linear-to-r from-[#f5d3d3] to-[#f1ded1]">
-      <div class="container mx-auto">
+    <footer>
+      <div>
         <div
           class="flex justify-between items-center container mx-auto p-[50px] sm:p-[30px] lg:p-[50px]"
         >
@@ -288,7 +288,7 @@
           <div class="flex items-center gap-4">
             <p class="text-[#777777]">Ready to get strated?</p>
             <button
-              class="py-3 px-5 rounded-md text-white font-semibold bg-linear-to-bl from-[#FF0000] to-[#FF8938] hover: transition delay-1 duration-100 hover:ease-in-out hover:-translate-y-1 hover:scale-105 "
+              class="w-[100%] sm:w-auto py-3 px-5 rounded-md text-white font-semibold bg-linear-to-bl from-[#FF0000] to-[#FF8938] hover:transition delay-1 duration-100 hover:ease-in-out hover:-translate-y-1 hover:scale-105"
             >
               Get Started
             </button>
@@ -331,7 +331,7 @@
                   class="border-b-2 pb-1 outline-none"
                 />
                 <button
-                  class="h-6 w-6 rounded-full text-white font-semibold bg-linear-to-bl from-[#FF0000] to-[#FF8938] hover: transition delay-1 duration-100 hover:ease-in-out hover:-translate-y-1 hover:scale-101"
+                  class="h-6 w-6 rounded-full text-white font-semibold bg-linear-to-bl from-[#FF0000] to-[#FF8938] hover:transition delay-1 duration-100 hover:ease-in-out hover:-translate-y-1 hover:scale-101"
                 >
                   <span><i class="fa-solid fa-chevron-right"></i></span>
                 </button>
