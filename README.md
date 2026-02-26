@@ -151,3 +151,19 @@ This project was created to practice:
 - UI design implementation based on a reference
 
 ---
+## 🚀 Future Improvements
+
+This is currently a static landing page project, but I plan to improve it further in the future.
+
+Some features I would like to implement:
+
+- Add JavaScript for interactive components
+- Make the navigation bar fully functional
+- Add smooth scrolling and animations
+- Implement a working newsletter subscription system
+- Connect it with a backend for dynamic product management
+- Improve accessibility (ARIA labels, better semantic structure)
+- Optimize performance and SEO
+- Add a dark mode option
+
+This project is part of my continuous learning journey, and I will keep updating it as I improve my skills.
